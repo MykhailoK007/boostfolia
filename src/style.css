@@ -1,0 +1,159 @@
+:root{
+    --light-text-color:#d6d5d5
+}
+*{
+    box-sizing: border-box;
+
+}
+.header{
+
+    height:145px;
+
+
+}
+.logoContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 55px 0px 55px 22px;
+}
+.logoImg{
+    padding-right:24px;
+}
+.menu{
+    padding-top: 60px;
+}
+.leftButtonSlide{
+    display: flex;
+    font-size: 60px;
+    padding:320px 100px 0px 20px ;
+    justify-content:flex-end;
+}
+.rightButtonSlide{
+    display: flex;
+    font-size: 60px;
+    padding:320px 0px 0px 100px ;
+    justify-content:flex-start;
+}
+.slider{
+    background: #353535;
+    height: 710px;
+    padding: 20px;
+
+}
+.sliderContent{
+    padding-top: 200px;
+}
+.slideText {
+    display: flex;
+    color: var(--light-text-color);
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.scrollDown{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.mouseContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.scrollDownText{
+    color:var(--light-text-color);
+    font-size: 15px;
+}
+.aboutUs{
+    height: 570px;
+}
+.aboutUsHeader{
+    margin: 0 auto;
+    text-align: center;
+    padding-top:100px ;
+}
+.aboutUsHeader>h1{
+    color:#3d3d3d;
+    margin-bottom: 40px;
+}
+.aboutUsHeader>div{
+    color:#c2c2c2;
+    margin-bottom:61px;
+}
+.sections{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.section{
+    background: #ebebeb;
+    text-align: center;
+    padding-top: 20px;
+    height: 190px;
+}
+.section img{
+    margin-bottom:30px;
+    width: 40px;
+    height: 40px;
+}
+.section div{
+    font-size:12px ;
+}
+.video{
+    background: #171f23;
+    height: 430px;
+
+}
+.leftSideVideo{
+    text-align: center;
+    margin-top:130px;
+}
+.leftSideVideo>h1{
+      color:white;
+}
+.leftSideVideo>p{
+    color:#484b4d;
+    width: 430px;
+    margin: 0 auto;
+}
+.videoButton{
+    background: #e84c3d;
+    border: none;
+    color:white;
+    width: 130px;
+    margin-top:45px ;
+    outline: none;
+}
+.rightSideVideo{
+    background: url("img/videoBgImg.png");
+    text-align: center;
+}
+.play{
+    margin-top:130px;
+}
+.ourWorkContainer{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+.ourWorkContainer>h1{
+    margin-bottom: 40px;
+}
+.ourWorkContainer>p{
+    width: 600px;
+    margin-bottom:80px;
+}
+.navWorkMenu{
+    margin: 0 auto;
+    margin-bottom: 33px;
+    display: flex;
+    justify-content: space-around;
+}
+.works{
+    height: 530px;
+    background: #e84c3d;
+
+}
